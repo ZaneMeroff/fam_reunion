@@ -19,12 +19,12 @@ const App = () => {
 
   return (
     <section>
-      <Nav />
+      {/* <Nav /> */}
       <Header />
       <About />
-      <SimonGame />
       <WorkExperience />
-      <Projects />
+      <SimonGame />
+      {/* <Projects /> */}
       <Contact />
     </section>
   );

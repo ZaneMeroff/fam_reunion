@@ -20,7 +20,7 @@ const properties = {
 export const SlideShowHeader = () => {
   return (
     <div className="container-slide">
-      <Slide {...properties}>
+      <Slide {...properties} style={{ border: '1px solid blue' }} className="react-slideshow">
         {slideImages.map((img, index) => (
           <img src={img} alt="img" key={index} />
         ))}

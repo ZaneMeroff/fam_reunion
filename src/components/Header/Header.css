@@ -56,7 +56,7 @@
 
 .down-arrow {
   background: center/100% url(../../images/down_arrow_icon.png);
-  border: none;
+  border: 1px solid #FFF;
   height: 35px;
   margin-top: 150px;
   position: relative;

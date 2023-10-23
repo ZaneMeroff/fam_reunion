@@ -1,10 +1,17 @@
 .container-slide {
-  width: 650px;
+  width: 100%;
   margin: auto;
 
-  /* position: absolute; */
+  position: absolute;
+	min-height: 1000px;
+	z-index: -1;
 }
 
 .container-slide img {
+	object-fit: cover;
   width: 100%;
+}
+
+.react-slideshow {
+	width: 100%;
 }

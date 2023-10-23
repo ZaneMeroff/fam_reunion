@@ -5,15 +5,10 @@
   height: auto;
   justify-content: center;
   padding-bottom: 55px;
+  padding-top: 35px;
   width: 100%;
-}
 
-.about-clip-path-top {
-  background-color: #383838;
-  clip-path: polygon(0% 50%, 0% 100%, 100% 100%);
-  height: 150px;
-  margin-top: -149px;
-  width: 100%;
+  margin-top: 300px;
 }
 
 .profile-pic-container {

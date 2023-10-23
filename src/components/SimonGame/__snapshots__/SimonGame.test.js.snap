@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SimonGame should match the snapshot 1`] = `
+<div>
+  <section
+    className="simon-game-outer-container"
+    id="simon-section"
+  >
+    <h2
+      className="simon-title"
+    >
+      Mr. Simon Game
+    </h2>
+    <GameBoard />
+  </section>
+  <div
+    className="simon-clip-path-bottom"
+  />
+</div>
+`;

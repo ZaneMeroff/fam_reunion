@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact should match the snapshot 1`] = `
+<div>
+  <div
+    className="contact-clip-path-top"
+  />
+  <section
+    className="contact-outer-container"
+    id="contact-section"
+  >
+    <i
+      className="contact-message"
+    >
+      Please feel free to contact me for work, suggestions, or networking!
+    </i>
+    <p
+      className="about-text"
+    >
+      Zachary Nemeroff
+    </p>
+    <p
+      className="about-text"
+    >
+      Denver, CO
+    </p>
+    <a
+      aria-label="send email"
+      href="mailto: ZaNemeroff@gmail.com"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <p
+        className="about-text email-text"
+      >
+        ZaNemeroff@gmail.com
+      </p>
+    </a>
+    <a
+      href="https://zanemeroff.github.io/resume_host"
+      rel="noopener noreferrer"
+      tabIndex="-1"
+      target="_blank"
+    >
+      <button
+        aria-label="view resume as PDF"
+        className="resume-button-footer"
+      >
+        resume.pdf
+      </button>
+    </a>
+    <div
+      className="social-icons-container"
+    >
+      <a
+        aria-label="github profile"
+        href="https://github.com/ZaneMeroff"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Github icon"
+          className="social-icon icon"
+          src="github_icon.png"
+        />
+      </a>
+      <a
+        aria-label="linkedin profile"
+        href="https://www.linkedin.com/in/zachary-nemeroff"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Linkedin icon"
+          className="social-icon icon"
+          src="linkedin_icon.png"
+        />
+      </a>
+      <a
+        aria-label="twitter profile"
+        href="https://twitter.com/zanemeroff"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="Twitter icon"
+          className="social-icon icon"
+          src="twitter_icon.png"
+        />
+      </a>
+    </div>
+  </section>
+</div>
+`;

@@ -1,0 +1,10 @@
+.container-slide {
+  width: 650px;
+  margin: auto;
+
+  /* position: absolute; */
+}
+
+.container-slide img {
+  width: 100%;
+}

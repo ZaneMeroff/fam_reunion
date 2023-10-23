@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav should match the snapshot 1`] = `
+<nav>
+  <div
+    className="mobile-nav-container"
+  >
+    <button
+      aria-label="toggle menu visibility"
+      className="hamburger-button "
+      onClick={[Function]}
+    />
+    <div
+      className="hidden"
+    >
+      <button
+        aria-label="home section"
+        className="nav-buttons"
+        key="home"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        home
+      </button>
+      <button
+        aria-label="about section"
+        className="nav-buttons"
+        key="about"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        about
+      </button>
+      <button
+        aria-label="simon section"
+        className="nav-buttons"
+        key="simon"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        simon
+      </button>
+      <button
+        aria-label="experience section"
+        className="nav-buttons"
+        key="experience"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        experience
+      </button>
+      <button
+        aria-label="projects section"
+        className="nav-buttons"
+        key="projects"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        projects
+      </button>
+      <button
+        aria-label="contact section"
+        className="nav-buttons"
+        key="contact"
+        onClick={[Function]}
+        tabIndex="0"
+      >
+        contact
+      </button>
+    </div>
+  </div>
+  <div
+    className="full-nav-container"
+  >
+    <button
+      aria-label="home section"
+      className="nav-buttons"
+      key="home"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      home
+    </button>
+    <button
+      aria-label="about section"
+      className="nav-buttons"
+      key="about"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      about
+    </button>
+    <button
+      aria-label="simon section"
+      className="nav-buttons"
+      key="simon"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      simon
+    </button>
+    <button
+      aria-label="experience section"
+      className="nav-buttons"
+      key="experience"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      experience
+    </button>
+    <button
+      aria-label="projects section"
+      className="nav-buttons"
+      key="projects"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      projects
+    </button>
+    <button
+      aria-label="contact section"
+      className="nav-buttons"
+      key="contact"
+      onClick={[Function]}
+      tabIndex="0"
+    >
+      contact
+    </button>
+  </div>
+</nav>
+`;

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameBoard should match the snapshot 1`] = `
+<section>
+  <ScoreBoard
+    disableScoreBoard={false}
+    onViewRulesClick={[Function]}
+    playerClickDisplay={0}
+    randomNumArray={Array []}
+    roundCount={0}
+    rulesVisible={false}
+    startGame={[Function]}
+  />
+  <div
+    className="hidden"
+  >
+    <div
+      className="rules-inner-container"
+    >
+      <p
+        className="rules-text"
+      >
+        It's you against Mr. Simon. When the game starts, Simon will create a color pattern that grows with each round. Your challenge is to match Simon's pattern by selecting the glowing lights in the correct order. Finish round 10 to win!
+      </p>
+    </div>
+  </div>
+  <div
+    className="gameboard-outer-container"
+  >
+    <div
+      className="center-circle"
+    >
+      <p
+        className="turn-text-1"
+      />
+      <p
+        className="turn-text-2"
+      />
+    </div>
+    <div
+      className="top-section disabled"
+    >
+      <button
+        aria-label="red button"
+        className="red-box"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="yellow button"
+        className="yellow-box"
+        onClick={[Function]}
+      />
+    </div>
+    <div
+      className="bottom-section disabled"
+    >
+      <button
+        aria-label="green button"
+        className="green-box"
+        onClick={[Function]}
+      />
+      <button
+        aria-label="blue button"
+        className="blue-box"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</section>
+`;

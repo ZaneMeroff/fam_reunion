@@ -16,6 +16,38 @@ export const WorkExperience = () => {
 
   return (
     <section id='experience-section' className='work-experience-outer-container'>
+
+      <div className='experience-container'>
+        { buildExperienceHeading('Rates') }
+        <div className='experience-right-container'>
+          {resumeData.rates.map(item => {
+            return (
+              <div key={item.name} className='plan-container'>
+                <p className='experience-title'>{item.name}</p>
+                <i className='experience-position'>{item.location}</i>
+                <i className='experience-time'>{item.time}</i>
+                <ul className='description-list'>
+                  {item.bullets.map(item => <li key={item} className='experience-item'>{item}</li>)}
+                </ul>
+              </div>)
+          })}
+        </div>
+      </div>
+
+      <div className='experience-container'>
+        { buildExperienceHeading('Amenities') }
+        <div className='experience-right-container'>
+          {resumeData.amenities.map((item, index) => {
+            return (
+              <div key={item.index} className='plan-container'>
+                <ul className='description-list'>
+                  {item.list.map(item => <li key={item} className='experience-item'>{item}</li>)}
+                </ul>
+              </div>)
+          })}
+        </div>
+      </div>
+
       <div className='experience-container'>
         { buildExperienceHeading('Itinerary') }
         <div className='experience-right-container'>
@@ -33,24 +65,6 @@ export const WorkExperience = () => {
         </div>
       </div>
 
-      <div className='tech-experience-container' id="skills-section">
-        { buildExperienceHeading('Amenities') }
-        <div className='tech-skills-container'>
-          <ul className='tech-skills-bullets'>{resumeData.activities.map(item => <li key={item} className='experience-item'>{item}</li>)}</ul>
-        </div>
-      </div>
-
-      {/* <div className='experience-container'>
-        { buildExperienceHeading('Education') }
-        <div className='experience-right-container'>
-          <h3 className='experience-title'>{resumeData.education.school}</h3>
-          <i className='experience-position'>{resumeData.education.position}</i>
-          <i className='experience-time'>{resumeData.education.time}</i>
-          <ul className='description-list'>
-            {resumeData.education.description.map(item => <li key={item} className='experience-item'>{item}</li>)}
-          </ul>
-        </div>
-      </div> */}
     </section>
   );
 }

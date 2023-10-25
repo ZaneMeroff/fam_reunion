@@ -1,17 +1,39 @@
-.container-slide {
+.slideshow-container {
+  
   width: 100%;
-  margin: auto;
 
-  position: absolute;
-	min-height: 1000px;
-	z-index: -1;
-}
 
-.container-slide img {
-	object-fit: cover;
-  width: 100%;
+  /* position: absolute; */
+
+	/* z-index: -1; */
+
+  display: flex;
+  justify-content: center;
+  
 }
 
 .react-slideshow {
-	width: 100%;
+  /* border: 1px solid blue; */
+  width: 50%;
+  /* object-fit: cover; */
+  
+}
+
+.slide-img-container {
+  width: 100%;
+  
+}
+
+.slide-img {
+  width: 100%;
+  
+}
+
+@media only screen and (max-width: 1400px) {
+
+  .react-slideshow {
+
+    width: 100%;
+  }
+  
 }

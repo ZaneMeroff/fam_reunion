@@ -1,5 +1,5 @@
 import React from 'react';
-import { resumeData } from '../../resumeData';
+import { siteData } from '../../siteData';
 import './WorkExperience.css';
 
 export const WorkExperience = () => {
@@ -20,7 +20,7 @@ export const WorkExperience = () => {
       <div className='experience-container'>
         { buildExperienceHeading('Rates') }
         <div className='experience-right-container'>
-          {resumeData.rates.map(item => {
+          {siteData.rates.map(item => {
             return (
               <div key={item.name} className='plan-container'>
                 <p className='experience-title'>{item.name}</p>
@@ -34,10 +34,11 @@ export const WorkExperience = () => {
         </div>
       </div>
 
+      {/* key bug is somewhere in here */}
       <div className='experience-container'>
         { buildExperienceHeading('Amenities') }
         <div className='experience-right-container'>
-          {resumeData.amenities.map((item, index) => {
+          {siteData.amenities.map((item, index) => {
             return (
               <div key={item.index} className='plan-container'>
                 <ul className='description-list'>
@@ -51,7 +52,7 @@ export const WorkExperience = () => {
       <div className='experience-container'>
         { buildExperienceHeading('Itinerary') }
         <div className='experience-right-container'>
-          {resumeData.plans.map(plan => {
+          {siteData.plans.map(plan => {
             return (
               <div key={plan.name} className='plan-container'>
                 <p className='experience-title'>{plan.name}</p>

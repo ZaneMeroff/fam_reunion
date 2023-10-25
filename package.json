@@ -1,8 +1,8 @@
 {
-  "name": "my_portfolio",
-  "version": "0.1.0",
+  "name": "nemoff_family_reunion_2024",
+  "version": "1.0.0",
   "private": true,
-  "homepage": "http://zacharynemeroff.com",
+  "homepage": "http://nemoffreunion2024.com",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

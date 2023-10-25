@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import gitHubIcon from '../../images/github_icon.png';
 import twitterIcon from '../../images/twitter_icon.png';
 import linkedInIcon from '../../images/linkedin_icon.png';
-import { resumeData } from '../../resumeData';
 import './Contact.css';
 
 export const Contact = () => {
@@ -16,7 +15,6 @@ export const Contact = () => {
 
   return (
     <div>
-      {/* <div className="contact-clip-path-top"></div> */}
       <section id='contact-section' className='contact-outer-container'>
         <i className='contact-message'>for questions call or text</i>
 
@@ -29,9 +27,8 @@ export const Contact = () => {
         <p className='about-text' style={{ marginTop: '100px' }}>website created by</p>
         <p className='about-text'>Zachary Nemeroff</p>
         <a rel='noopener noreferrer' aria-label='send email' href='mailto: ZaNemeroff@gmail.com' target='_blank'><p className='about-text email-text'>ZaNemeroff@gmail.com</p></a>
-        <p className='about-text'>© 2024</p>
+        <p className='about-text'>ⓩ 2024</p>
       </section>
     </div>
   );
-
 }

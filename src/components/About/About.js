@@ -1,19 +1,55 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import profilePic from "../../images/profile_pic.jpg";
 import "./About.css";
 
 export const About = () => {
-  const scrollToTechSkillsSection = () => {
-    document
-      .querySelector("#skills-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
+
+  const [count, setCount] = useState('');
+
+  useEffect(() => {
+    countdownTimer();
+  });
+
+  // const scrollToTechSkillsSection = () => {    is this used?
+  //   document
+  //     .querySelector("#skills-section")
+  //     .scrollIntoView({ behavior: "smooth" });
+  // };
+
+  const countdownTimer = () => {
+    // Set the date we're counting down to
+    var countDownDate = new Date("April 12, 2024 00:00:00").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+      // Get today's date and time
+      var now = new Date().getTime();
+
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+      if (distance < 0) {
+        clearInterval(x);
+        setCount('LET THE FESTIVITIES BEGIN!')
+      } else {
+        setCount(days + 'd ' + hours + 'h ' + minutes + 'm ' + seconds + 's ')
+      }
+    }, 1000);
+  }
 
   return (
     <div className="about-wrapper">
       <div className="title-wrapper">
         <h1 className='title-name'>Nemoff Reunion</h1>
         <h1 className='title-date'>April 12 - 14, 2024</h1>
+        <h1 className='title-date' style={{ marginTop: '8px' }}>{ count }</h1>
       </div>
       <section id="about-section" className="about-outer-container">
         <div className="about-info-container">
@@ -52,7 +88,6 @@ export const About = () => {
             >
               <p className="about-text email-text" style={{ fontWeight: 'bold' }}>7677 N 16th St, Phoenix, AZ 85020</p>
             </a>
-
           </div>
         </div>
       </section>

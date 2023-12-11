@@ -9,7 +9,7 @@ export const siteData = {
         "$25/night (reduced from $35) + tax nightly resort fee (wi-fi, parking, fitness center, pools, water park, mini-golf)",
         "$9/person one-time porterage and $2 nightly housekeeping service charge",
         "the estimated total cost per room for two nights is $632",
-        "to reserve call 1-602-997-2626 and say you're with the \"Nemoff Family Reunion\" April 12-14, 2024"
+        "to reserve call 1-602-997-2626 and say you're with the \"Nemoff Family Reunion April 12-14, 2024\""
       ]
     },
   ],

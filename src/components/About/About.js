@@ -57,7 +57,7 @@ export const About = () => {
         <div className="about-info-container">
           <h2 className="about-text">Greetings family!</h2>
           <p className="about-text">
-            It's been far too long since our last family reunion, and we're thrilled to announce that the upcoming gathering will be hosted at the Hilton Phoenix Resort at the Peak. Get ready for a weekend brimming with excitement, laughter, and the retelling of cherished family stories. And don't forget to pack your swimsuit because this time the list of amenities includes a waterpark!
+            It's been far too long since our last family reunion, and we're thrilled to announce that the upcoming gathering will be hosted at the Hilton Phoenix Resort at the Peak. Get ready for a weekend brimming with excitement, laughter, and the retelling of cherished family stories. And don't forget to pack your swimsuit because this time there's a waterpark!
           </p>
 
           <div className="contact-info-container">

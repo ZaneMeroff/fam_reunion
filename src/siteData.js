@@ -8,8 +8,8 @@ export const siteData = {
         "$249/night + tax for one-bedroom suite with single king or two queen beds (pullout sofa in both)",
         "$25/night (reduced from $35) + tax nightly resort fee (wi-fi, parking, fitness center, pools, water park, mini-golf)",
         "$9/person one-time porterage and $2 nightly housekeeping service charge",
-        "estimated total cost per room for two nights: $632",
-        "to reserve call XXX.XXX.XXXX and say you're with the \"Nemoff Family Reunion\" April 12-14, 2024"
+        "the estimated total cost per room for two nights is $632",
+        "to reserve call 1-602-997-2626 and say you're with the \"Nemoff Family Reunion\" April 12-14, 2024"
       ]
     },
   ],

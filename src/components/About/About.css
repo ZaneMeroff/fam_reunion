@@ -10,23 +10,19 @@
 }
 
 .title-name, .title-date {
-  /* display: inline-block; */
   color: #f4a261;
   font-family: 'Jost';
   font-size: 500%;
   font-weight: lighter;
-  /* margin: 120px 15px 0px 15px; */
-
   text-transform: uppercase;
   z-index: 1;
-  /* text-align: center; */
   margin-top: -40px;
   text-shadow: 2px 2px 4px #000000;
 }
 
 .title-date {
   font-size: 200%;
-  margin-top: -18px;
+  margin-top: -15px;
 }
 
 .title-wrapper {
@@ -107,7 +103,8 @@
   }
 
   .title-date {
-    font-size: 150%;
+    font-size: 160%;
+    margin-top: -3px;
   }
 
 }
@@ -118,10 +115,6 @@
     font-size: 350%;
     margin-top: -30px;
   }
-  
-  .title-date {
-    font-size: 130%;
-  }
 
 }
 
@@ -130,11 +123,6 @@
   .title-name {
     font-size: 320%;
   }
-  
-  .title-date {
-    font-size: 110%;
-    margin-top: -15px;
-  }
 
 }
 
@@ -142,11 +130,6 @@
 
   .title-name {
     font-size: 280%;
-  }
-  
-  .title-date {
-    font-size: 100%;
-    margin-top: -9px;
   }
 
 }
@@ -159,8 +142,7 @@
   }
   
   .title-date {
-    font-size: 90%;
-    margin-top: -5px;
+    font-size: 120%;
   }
 
 }

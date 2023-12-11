@@ -34,13 +34,26 @@ export const WorkExperience = () => {
         </div>
       </div>
 
-      {/* key bug is somewhere in here */}
       <div className='experience-container'>
         { buildExperienceHeading('Amenities') }
         <div className='experience-right-container'>
           {siteData.amenities.map((item, index) => {
             return (
-              <div key={item.index} className='plan-container'>
+              <div key={index} className='plan-container'>
+                <ul className='description-list'>
+                  {item.list.map(item => <li key={item} className='experience-item'>{item}</li>)}
+                </ul>
+              </div>)
+          })}
+        </div>
+      </div>
+
+      <div className='experience-container'>
+        { buildExperienceHeading('Current Roster') }
+        <div className='experience-right-container'>
+          {siteData.roster.map((item, index) => {
+            return (
+              <div key={index} className='plan-container'>
                 <ul className='description-list'>
                   {item.list.map(item => <li key={item} className='experience-item'>{item}</li>)}
                 </ul>

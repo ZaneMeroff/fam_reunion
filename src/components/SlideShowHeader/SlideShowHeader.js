@@ -34,8 +34,8 @@ export const SlideShowHeader = () => {
     <div className="slideshow-container">
       <Slide {...properties} className="react-slideshow">
         {slideImages.map((img, index) => (
-          <div className="slide-img-container">
-            <img src={img} alt="img" key={index} className="slide-img" />
+          <div key={index} className="slide-img-container">
+            <img src={img} alt="img" className="slide-img" />
           </div>
         ))}
       </Slide>

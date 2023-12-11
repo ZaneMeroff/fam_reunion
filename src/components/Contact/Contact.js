@@ -1,7 +1,4 @@
 import React, { useEffect } from 'react';
-import gitHubIcon from '../../images/github_icon.png';
-import twitterIcon from '../../images/twitter_icon.png';
-import linkedInIcon from '../../images/linkedin_icon.png';
 import './Contact.css';
 
 export const Contact = () => {

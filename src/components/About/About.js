@@ -64,7 +64,7 @@ export const About = () => {
             <h2 className="about-text">How do I reserve my spot?</h2>
 
             <p className="about-text">
-              Our discounted rate is good for up to three additional nights before and after April 12-14. There are a few families that plan to arrive one day early on Thur, April 11. Feel free to join us for an additional night of fun! See RATES section below for details.
+              Our discounted rate is good for up to three additional nights before and after April 12-14. There are a few families that plan to arrive one day early on Thur, April 11. Feel free to join us for an additional night of fun! See RATES section below for details. Deadline to book is Friday February 23, 2024.
             </p>
             
             <p className="about-text" style={{ marginTop: '8px' }}><strong>Book Online:</strong></p>

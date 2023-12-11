@@ -68,10 +68,10 @@ export const About = () => {
             </p>
             
             <p className="about-text" style={{ marginTop: '8px' }}><strong>Book Online:</strong></p>
-            <p className="about-text">Use our <span><a href={ hiltonSiteEventLink } style={{ textDecorationColor: '#f4a261' }} rel="noreferrer noopener" target="_blank" className="link-color">event link</a></span> and select your room preference. The discounted rate of $274/night (after resort fee) should automatically apply. Note, you can add more nights by changing the dates on the top banner and clicking the "Update" button.</p>
+            <p className="about-text">Use our <span><a href={ hiltonSiteEventLink } style={{ textDecorationColor: '#5cfbf7' }} rel="noreferrer noopener" target="_blank" className="link-color">event link</a></span> and select your room preference. The discounted rate of $274/night (after resort fee) should automatically apply. Note, you can add more nights by changing the dates on the top banner and clicking the "Update" button.</p>
             
             <p className="about-text" style={{ marginTop: '8px' }}><strong>Book By Phone:</strong></p>
-            <p className="about-text">Call <span><a href="tel:18004458667" style={{ textDecorationColor: '#f4a261' }} className="link-color">1-800-445-8667</a></span> and mention the group code "NFR" or mention the group "Nemoff Family Reunion April 12-14, 2024." You may also book by calling the hotel directly at <span><a href="tel:16029972626" style={{ textDecorationColor: '#f4a261' }} className="link-color">1-602-997-2626</a></span> and asking for reservations.</p>
+            <p className="about-text">Call <span><a href="tel:18004458667" style={{ textDecorationColor: '#5cfbf7' }} className="link-color">1-800-445-8667</a></span> and mention the group code "NFR" or mention the group "Nemoff Family Reunion April 12-14, 2024." You may also book by calling the hotel directly at <span><a href="tel:16029972626" style={{ textDecorationColor: '#5cfbf7' }} className="link-color">1-602-997-2626</a></span> and asking for reservations.</p>
           </div>
 
           <div style={{ marginTop: '5%', marginBottom: '1%' }}>

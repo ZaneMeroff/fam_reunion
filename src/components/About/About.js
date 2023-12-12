@@ -9,12 +9,6 @@ export const About = () => {
     countdownTimer();
   });
 
-  // const scrollToTechSkillsSection = () => {    is this used?
-  //   document
-  //     .querySelector("#skills-section")
-  //     .scrollIntoView({ behavior: "smooth" });
-  // };
-
   const countdownTimer = () => {
     // Set the date we're counting down to
     var countDownDate = new Date("April 12, 2024 00:00:00").getTime();

@@ -20,8 +20,10 @@ import pic15 from '../../images/slideshow/fam_reunion_15.jpg'
 import pic16 from '../../images/slideshow/fam_reunion_16.jpg'
 import pic17 from '../../images/slideshow/fam_reunion_17.jpg'
 import pic18 from '../../images/slideshow/fam_reunion_18.jpg'
+import pic19 from '../../images/slideshow/fam_reunion_19.jpg'
+import pic20 from '../../images/slideshow/fam_reunion_20.jpg'
 
-const slideImages = [ pic01, pic02, pic03, pic04, pic05, pic06, pic07, pic08, pic09, pic10, pic11, pic12, pic13, pic14, pic15, pic16, pic17, pic18 ];
+const slideImages = [ pic01, pic02, pic03, pic04, pic05, pic06, pic07, pic08, pic09, pic10, pic19, pic11, pic12, pic13, pic20, pic14, pic15, pic16, pic17, pic18 ];
 
 const properties = {
   duration: 3000,

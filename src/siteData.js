@@ -59,13 +59,14 @@ export const siteData = {
         "Adam Wade, Azana Nunez, Matteo Wade",
         "Greg Nemoff, Kathy Garramone",
         "Nina Nemoff, Josh Page, Lennon Page, Maeve Page",
+        "Terry Nemoff, Caden Nemoff",
         "Zachary Nemeroff, Celene Nemeroff, Xander Nemeroff (arriving Thur)",
         "Mitch Nemeroff, Brenda Nemeroff",
         "Howard Nemeroff, Nolan Nemeroff",
         "Corrie Nemeroff, Nancy Nemeroff (both pending)",
         "Judy Feinberg",
         "Zachary Myers, Rachel Myers, Blake Myers (arriving Thur)",
-        "Josh Myers, Elenor Myers, Michelle Siles (arriving Thur)",
+        "Josh Myers, Elenor Myers, Michelle Siles (arriving Thur)"
       ]
     }
   ]

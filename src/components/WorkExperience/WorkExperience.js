@@ -49,7 +49,7 @@ export const WorkExperience = () => {
       </div>
 
       <div className='experience-container'>
-        { buildExperienceHeading('Current Roster') }
+        { buildExperienceHeading('Roster') }
         <div className='experience-right-container'>
           {siteData.roster.map((item, index) => {
             return (

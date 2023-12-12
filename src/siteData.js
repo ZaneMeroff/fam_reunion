@@ -5,7 +5,7 @@ export const siteData = {
       arrival: "Arrive: April 12, 2024",
       departure: "Depart: April 14, 2024",
       bullets: [
-        "$249/night + tax for one-bedroom suite with single king or two queen beds (pullout sofa in both)",
+        "$249/night + tax for one-bedroom suite with either single king bed or two queen beds, pullout sofa bed in both, both rooms are the same price",
         "$25/night (reduced from $35) + tax nightly resort fee (wi-fi, parking, fitness center, pools, water park, mini-golf)",
         "$9/person one-time porterage and $2 nightly housekeeping service charge",
         "the estimated total cost per room for two nights is $632",

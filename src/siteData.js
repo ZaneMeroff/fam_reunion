@@ -18,19 +18,26 @@ export const siteData = {
     {
       name: "Friday",
       location: "April 12, 2024",
-      time: "scheduled activities will be posted here closer to the event",
-      description: []
+      time: "more updates to come",
+      description: [
+        "Dinner at Richardson's Restaurant (New Mexican cuisine)",
+        "6335 N 16th St, Phoenix, AZ 85016",
+      ]
     },
     {
       name: "Saturday",
       location: "April 13, 2024",
-      time: "scheduled activities will be posted here closer to the event",
-      description: []
+      time: "more updates to come",
+      description: [
+        "Family BBQ @ David Myers' house in Sun City",
+        "10254 W Pinehurst Dr, Sun City, AZ 85351",
+        "eating, drinking, partaking, golfing (Sun City South Golf Course across street)"
+      ]
     },
     {
       name: "Sunday",
       location: "April 14, 2024",
-      time: "scheduled activities will be posted here closer to the event",
+      time: "more updates to come",
       description: []
     },
   ],
@@ -63,7 +70,7 @@ export const siteData = {
         "Zachary Nemeroff, Celene Nemeroff, Xander Nemeroff (arriving Thur)",
         "Mitch Nemeroff, Brenda Nemeroff",
         "Howard Nemeroff, Nolan Nemeroff",
-        "Corrie Nemeroff, Nancy Nemeroff (both pending)",
+        "Corrie Nemeroff, Nancy Nemeroff",
         "Judy Feinberg",
         "Zachary Myers, Rachel Myers, Blake Myers (arriving Thur)",
         "Josh Myers, Elenor Myers, Michelle Siles (arriving Thur)"
